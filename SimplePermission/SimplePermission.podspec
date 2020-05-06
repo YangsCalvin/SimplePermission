@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   #库名称
   spec.name         = "SimplePermission"
   #版本号
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   #介绍，search时候会展示介绍
   spec.summary      = "Yangscalvin - SimplePermission."
 
