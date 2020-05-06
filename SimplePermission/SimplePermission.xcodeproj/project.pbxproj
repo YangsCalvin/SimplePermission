@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0CEA8D2462B1B300884373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEA8C2462B1B300884373 /* AppDelegate.m */; };
+		3F0CEA932462B1B300884373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEA922462B1B300884373 /* ViewController.m */; };
+		3F0CEA962462B1B300884373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CEA942462B1B300884373 /* Main.storyboard */; };
+		3F0CEA982462B1B400884373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CEA972462B1B400884373 /* Assets.xcassets */; };
+		3F0CEA9B2462B1B400884373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CEA992462B1B400884373 /* LaunchScreen.storyboard */; };
+		3F0CEA9E2462B1B400884373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEA9D2462B1B400884373 /* main.m */; };
+		3F0CEAA82462B1B400884373 /* SimplePermissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAA72462B1B400884373 /* SimplePermissionTests.m */; };
+		3F0CEAB32462B1B400884373 /* SimplePermissionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAB22462B1B400884373 /* SimplePermissionUITests.m */; };
+		3F0CEB152462B2AC00884373 /* SimplePermissionMediaLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAF52462B2AC00884373 /* SimplePermissionMediaLibrary.m */; };
+		3F0CEB162462B2AC00884373 /* SimplePermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAF82462B2AC00884373 /* SimplePermissionCalendar.m */; };
+		3F0CEB172462B2AC00884373 /* SimplePermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAF92462B2AC00884373 /* SimplePermissionSetting.m */; };
+		3F0CEB182462B2AC00884373 /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAFB2462B2AC00884373 /* NetReachability.m */; };
+		3F0CEB192462B2AC00884373 /* SimplePermissionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAFC2462B2AC00884373 /* SimplePermissionTableViewCell.m */; };
+		3F0CEB1A2462B2AC00884373 /* SimplePermissionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CEAFD2462B2AC00884373 /* SimplePermissionTableViewCell.xib */; };
+		3F0CEB1B2462B2AC00884373 /* SimplePermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEAFF2462B2AC00884373 /* SimplePermissionPhotos.m */; };
+		3F0CEB1C2462B2AC00884373 /* SimplePermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB002462B2AC00884373 /* SimplePermissionMicrophone.m */; };
+		3F0CEB1D2462B2AC00884373 /* SimplePermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB022462B2AC00884373 /* SimplePermissionHealth.m */; };
+		3F0CEB1E2462B2AC00884373 /* SimplePermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB032462B2AC00884373 /* SimplePermissionReminders.m */; };
+		3F0CEB1F2462B2AC00884373 /* SimplePermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB052462B2AC00884373 /* SimplePermissionLocation.m */; };
+		3F0CEB202462B2AC00884373 /* SimplePermissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB062462B2AC00884373 /* SimplePermissionViewController.m */; };
+		3F0CEB212462B2AC00884373 /* SimplePermissionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB082462B2AC00884373 /* SimplePermissionData.m */; };
+		3F0CEB222462B2AC00884373 /* SimplePermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB0D2462B2AC00884373 /* SimplePermissionCamera.m */; };
+		3F0CEB232462B2AC00884373 /* SimplePermissionNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB0E2462B2AC00884373 /* SimplePermissionNet.m */; };
+		3F0CEB242462B2AC00884373 /* SimplePermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB112462B2AC00884373 /* SimplePermission.m */; };
+		3F0CEB252462B2AC00884373 /* SimplePermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CEB142462B2AC00884373 /* SimplePermissionContacts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0CEAA42462B1B400884373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0CEA802462B1B300884373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0CEA872462B1B300884373;
+			remoteInfo = SimplePermission;
+		};
+		3F0CEAAF2462B1B400884373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0CEA802462B1B300884373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0CEA872462B1B300884373;
+			remoteInfo = SimplePermission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0CEA882462B1B300884373 /* SimplePermission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePermission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0CEA8B2462B1B300884373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F0CEA8C2462B1B300884373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F0CEA912462B1B300884373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F0CEA922462B1B300884373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F0CEA952462B1B300884373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0CEA972462B1B400884373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0CEA9A2462B1B400884373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0CEA9C2462B1B400884373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0CEA9D2462B1B400884373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F0CEAA32462B1B400884373 /* SimplePermissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePermissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0CEAA72462B1B400884373 /* SimplePermissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionTests.m; sourceTree = "<group>"; };
+		3F0CEAA92462B1B400884373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0CEAAE2462B1B400884373 /* SimplePermissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePermissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0CEAB22462B1B400884373 /* SimplePermissionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionUITests.m; sourceTree = "<group>"; };
+		3F0CEAB42462B1B400884373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0CEAF42462B2AC00884373 /* SimplePermissionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionData.h; sourceTree = "<group>"; };
+		3F0CEAF52462B2AC00884373 /* SimplePermissionMediaLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionMediaLibrary.m; sourceTree = "<group>"; };
+		3F0CEAF62462B2AC00884373 /* SimplePermissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionViewController.h; sourceTree = "<group>"; };
+		3F0CEAF72462B2AC00884373 /* SimplePermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionLocation.h; sourceTree = "<group>"; };
+		3F0CEAF82462B2AC00884373 /* SimplePermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionCalendar.m; sourceTree = "<group>"; };
+		3F0CEAF92462B2AC00884373 /* SimplePermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionSetting.m; sourceTree = "<group>"; };
+		3F0CEAFA2462B2AC00884373 /* SimplePermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionCamera.h; sourceTree = "<group>"; };
+		3F0CEAFB2462B2AC00884373 /* NetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReachability.m; sourceTree = "<group>"; };
+		3F0CEAFC2462B2AC00884373 /* SimplePermissionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionTableViewCell.m; sourceTree = "<group>"; };
+		3F0CEAFD2462B2AC00884373 /* SimplePermissionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplePermissionTableViewCell.xib; sourceTree = "<group>"; };
+		3F0CEAFE2462B2AC00884373 /* SimplePermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionContacts.h; sourceTree = "<group>"; };
+		3F0CEAFF2462B2AC00884373 /* SimplePermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionPhotos.m; sourceTree = "<group>"; };
+		3F0CEB002462B2AC00884373 /* SimplePermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionMicrophone.m; sourceTree = "<group>"; };
+		3F0CEB012462B2AC00884373 /* SimplePermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermission.h; sourceTree = "<group>"; };
+		3F0CEB022462B2AC00884373 /* SimplePermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionHealth.m; sourceTree = "<group>"; };
+		3F0CEB032462B2AC00884373 /* SimplePermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionReminders.m; sourceTree = "<group>"; };
+		3F0CEB042462B2AC00884373 /* SimplePermissionNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionNet.h; sourceTree = "<group>"; };
+		3F0CEB052462B2AC00884373 /* SimplePermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionLocation.m; sourceTree = "<group>"; };
+		3F0CEB062462B2AC00884373 /* SimplePermissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionViewController.m; sourceTree = "<group>"; };
+		3F0CEB072462B2AC00884373 /* SimplePermissionMediaLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionMediaLibrary.h; sourceTree = "<group>"; };
+		3F0CEB082462B2AC00884373 /* SimplePermissionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionData.m; sourceTree = "<group>"; };
+		3F0CEB092462B2AC00884373 /* SimplePermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionSetting.h; sourceTree = "<group>"; };
+		3F0CEB0A2462B2AC00884373 /* SimplePermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionCalendar.h; sourceTree = "<group>"; };
+		3F0CEB0B2462B2AC00884373 /* SimplePermissionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionTableViewCell.h; sourceTree = "<group>"; };
+		3F0CEB0C2462B2AC00884373 /* NetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReachability.h; sourceTree = "<group>"; };
+		3F0CEB0D2462B2AC00884373 /* SimplePermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionCamera.m; sourceTree = "<group>"; };
+		3F0CEB0E2462B2AC00884373 /* SimplePermissionNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionNet.m; sourceTree = "<group>"; };
+		3F0CEB0F2462B2AC00884373 /* SimplePermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionReminders.h; sourceTree = "<group>"; };
+		3F0CEB102462B2AC00884373 /* SimplePermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionHealth.h; sourceTree = "<group>"; };
+		3F0CEB112462B2AC00884373 /* SimplePermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermission.m; sourceTree = "<group>"; };
+		3F0CEB122462B2AC00884373 /* SimplePermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionMicrophone.h; sourceTree = "<group>"; };
+		3F0CEB132462B2AC00884373 /* SimplePermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePermissionPhotos.h; sourceTree = "<group>"; };
+		3F0CEB142462B2AC00884373 /* SimplePermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePermissionContacts.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0CEA852462B1B300884373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEAA02462B1B400884373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEAAB2462B1B400884373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0CEA7F2462B1B300884373 = {
+			isa = PBXGroup;
+			children = (
+				3F0CEA8A2462B1B300884373 /* SimplePermission */,
+				3F0CEAA62462B1B400884373 /* SimplePermissionTests */,
+				3F0CEAB12462B1B400884373 /* SimplePermissionUITests */,
+				3F0CEA892462B1B300884373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0CEA892462B1B300884373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CEA882462B1B300884373 /* SimplePermission.app */,
+				3F0CEAA32462B1B400884373 /* SimplePermissionTests.xctest */,
+				3F0CEAAE2462B1B400884373 /* SimplePermissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0CEA8A2462B1B300884373 /* SimplePermission */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CEAF32462B2AC00884373 /* SimplePermission */,
+				3F0CEA8B2462B1B300884373 /* AppDelegate.h */,
+				3F0CEA8C2462B1B300884373 /* AppDelegate.m */,
+				3F0CEA912462B1B300884373 /* ViewController.h */,
+				3F0CEA922462B1B300884373 /* ViewController.m */,
+				3F0CEA942462B1B300884373 /* Main.storyboard */,
+				3F0CEA972462B1B400884373 /* Assets.xcassets */,
+				3F0CEA992462B1B400884373 /* LaunchScreen.storyboard */,
+				3F0CEA9C2462B1B400884373 /* Info.plist */,
+				3F0CEA9D2462B1B400884373 /* main.m */,
+			);
+			path = SimplePermission;
+			sourceTree = "<group>";
+		};
+		3F0CEAA62462B1B400884373 /* SimplePermissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CEAA72462B1B400884373 /* SimplePermissionTests.m */,
+				3F0CEAA92462B1B400884373 /* Info.plist */,
+			);
+			path = SimplePermissionTests;
+			sourceTree = "<group>";
+		};
+		3F0CEAB12462B1B400884373 /* SimplePermissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CEAB22462B1B400884373 /* SimplePermissionUITests.m */,
+				3F0CEAB42462B1B400884373 /* Info.plist */,
+			);
+			path = SimplePermissionUITests;
+			sourceTree = "<group>";
+		};
+		3F0CEAF32462B2AC00884373 /* SimplePermission */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CEAF42462B2AC00884373 /* SimplePermissionData.h */,
+				3F0CEAF52462B2AC00884373 /* SimplePermissionMediaLibrary.m */,
+				3F0CEAF62462B2AC00884373 /* SimplePermissionViewController.h */,
+				3F0CEAF72462B2AC00884373 /* SimplePermissionLocation.h */,
+				3F0CEAF82462B2AC00884373 /* SimplePermissionCalendar.m */,
+				3F0CEAF92462B2AC00884373 /* SimplePermissionSetting.m */,
+				3F0CEAFA2462B2AC00884373 /* SimplePermissionCamera.h */,
+				3F0CEAFB2462B2AC00884373 /* NetReachability.m */,
+				3F0CEAFC2462B2AC00884373 /* SimplePermissionTableViewCell.m */,
+				3F0CEAFD2462B2AC00884373 /* SimplePermissionTableViewCell.xib */,
+				3F0CEAFE2462B2AC00884373 /* SimplePermissionContacts.h */,
+				3F0CEAFF2462B2AC00884373 /* SimplePermissionPhotos.m */,
+				3F0CEB002462B2AC00884373 /* SimplePermissionMicrophone.m */,
+				3F0CEB012462B2AC00884373 /* SimplePermission.h */,
+				3F0CEB022462B2AC00884373 /* SimplePermissionHealth.m */,
+				3F0CEB032462B2AC00884373 /* SimplePermissionReminders.m */,
+				3F0CEB042462B2AC00884373 /* SimplePermissionNet.h */,
+				3F0CEB052462B2AC00884373 /* SimplePermissionLocation.m */,
+				3F0CEB062462B2AC00884373 /* SimplePermissionViewController.m */,
+				3F0CEB072462B2AC00884373 /* SimplePermissionMediaLibrary.h */,
+				3F0CEB082462B2AC00884373 /* SimplePermissionData.m */,
+				3F0CEB092462B2AC00884373 /* SimplePermissionSetting.h */,
+				3F0CEB0A2462B2AC00884373 /* SimplePermissionCalendar.h */,
+				3F0CEB0B2462B2AC00884373 /* SimplePermissionTableViewCell.h */,
+				3F0CEB0C2462B2AC00884373 /* NetReachability.h */,
+				3F0CEB0D2462B2AC00884373 /* SimplePermissionCamera.m */,
+				3F0CEB0E2462B2AC00884373 /* SimplePermissionNet.m */,
+				3F0CEB0F2462B2AC00884373 /* SimplePermissionReminders.h */,
+				3F0CEB102462B2AC00884373 /* SimplePermissionHealth.h */,
+				3F0CEB112462B2AC00884373 /* SimplePermission.m */,
+				3F0CEB122462B2AC00884373 /* SimplePermissionMicrophone.h */,
+				3F0CEB132462B2AC00884373 /* SimplePermissionPhotos.h */,
+				3F0CEB142462B2AC00884373 /* SimplePermissionContacts.m */,
+			);
+			path = SimplePermission;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0CEA872462B1B300884373 /* SimplePermission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0CEAB72462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermission" */;
+			buildPhases = (
+				3F0CEA842462B1B300884373 /* Sources */,
+				3F0CEA852462B1B300884373 /* Frameworks */,
+				3F0CEA862462B1B300884373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePermission;
+			productName = SimplePermission;
+			productReference = 3F0CEA882462B1B300884373 /* SimplePermission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0CEAA22462B1B400884373 /* SimplePermissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0CEABA2462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermissionTests" */;
+			buildPhases = (
+				3F0CEA9F2462B1B400884373 /* Sources */,
+				3F0CEAA02462B1B400884373 /* Frameworks */,
+				3F0CEAA12462B1B400884373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0CEAA52462B1B400884373 /* PBXTargetDependency */,
+			);
+			name = SimplePermissionTests;
+			productName = SimplePermissionTests;
+			productReference = 3F0CEAA32462B1B400884373 /* SimplePermissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0CEAAD2462B1B400884373 /* SimplePermissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0CEABD2462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermissionUITests" */;
+			buildPhases = (
+				3F0CEAAA2462B1B400884373 /* Sources */,
+				3F0CEAAB2462B1B400884373 /* Frameworks */,
+				3F0CEAAC2462B1B400884373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0CEAB02462B1B400884373 /* PBXTargetDependency */,
+			);
+			name = SimplePermissionUITests;
+			productName = SimplePermissionUITests;
+			productReference = 3F0CEAAE2462B1B400884373 /* SimplePermissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0CEA802462B1B300884373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = calendar;
+				TargetAttributes = {
+					3F0CEA872462B1B300884373 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					3F0CEAA22462B1B400884373 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3F0CEA872462B1B300884373;
+					};
+					3F0CEAAD2462B1B400884373 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 3F0CEA872462B1B300884373;
+					};
+				};
+			};
+			buildConfigurationList = 3F0CEA832462B1B300884373 /* Build configuration list for PBXProject "SimplePermission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0CEA7F2462B1B300884373;
+			productRefGroup = 3F0CEA892462B1B300884373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0CEA872462B1B300884373 /* SimplePermission */,
+				3F0CEAA22462B1B400884373 /* SimplePermissionTests */,
+				3F0CEAAD2462B1B400884373 /* SimplePermissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0CEA862462B1B300884373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CEB1A2462B2AC00884373 /* SimplePermissionTableViewCell.xib in Resources */,
+				3F0CEA9B2462B1B400884373 /* LaunchScreen.storyboard in Resources */,
+				3F0CEA982462B1B400884373 /* Assets.xcassets in Resources */,
+				3F0CEA962462B1B300884373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEAA12462B1B400884373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEAAC2462B1B400884373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0CEA842462B1B300884373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CEB202462B2AC00884373 /* SimplePermissionViewController.m in Sources */,
+				3F0CEB162462B2AC00884373 /* SimplePermissionCalendar.m in Sources */,
+				3F0CEA932462B1B300884373 /* ViewController.m in Sources */,
+				3F0CEA8D2462B1B300884373 /* AppDelegate.m in Sources */,
+				3F0CEA9E2462B1B400884373 /* main.m in Sources */,
+				3F0CEB1D2462B2AC00884373 /* SimplePermissionHealth.m in Sources */,
+				3F0CEB1F2462B2AC00884373 /* SimplePermissionLocation.m in Sources */,
+				3F0CEB182462B2AC00884373 /* NetReachability.m in Sources */,
+				3F0CEB242462B2AC00884373 /* SimplePermission.m in Sources */,
+				3F0CEB192462B2AC00884373 /* SimplePermissionTableViewCell.m in Sources */,
+				3F0CEB1B2462B2AC00884373 /* SimplePermissionPhotos.m in Sources */,
+				3F0CEB222462B2AC00884373 /* SimplePermissionCamera.m in Sources */,
+				3F0CEB232462B2AC00884373 /* SimplePermissionNet.m in Sources */,
+				3F0CEB172462B2AC00884373 /* SimplePermissionSetting.m in Sources */,
+				3F0CEB252462B2AC00884373 /* SimplePermissionContacts.m in Sources */,
+				3F0CEB152462B2AC00884373 /* SimplePermissionMediaLibrary.m in Sources */,
+				3F0CEB1E2462B2AC00884373 /* SimplePermissionReminders.m in Sources */,
+				3F0CEB212462B2AC00884373 /* SimplePermissionData.m in Sources */,
+				3F0CEB1C2462B2AC00884373 /* SimplePermissionMicrophone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEA9F2462B1B400884373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CEAA82462B1B400884373 /* SimplePermissionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0CEAAA2462B1B400884373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0CEAB32462B1B400884373 /* SimplePermissionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0CEAA52462B1B400884373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0CEA872462B1B300884373 /* SimplePermission */;
+			targetProxy = 3F0CEAA42462B1B400884373 /* PBXContainerItemProxy */;
+		};
+		3F0CEAB02462B1B400884373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0CEA872462B1B300884373 /* SimplePermission */;
+			targetProxy = 3F0CEAAF2462B1B400884373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0CEA942462B1B300884373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CEA952462B1B300884373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0CEA992462B1B400884373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0CEA9A2462B1B400884373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0CEAB52462B1B400884373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F0CEAB62462B1B400884373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0CEAB82462B1B400884373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermission/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0CEAB92462B1B400884373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermission/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F0CEABB2462B1B400884373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePermission.app/SimplePermission";
+			};
+			name = Debug;
+		};
+		3F0CEABC2462B1B400884373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePermission.app/SimplePermission";
+			};
+			name = Release;
+		};
+		3F0CEABE2462B1B400884373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplePermission;
+			};
+			name = Debug;
+		};
+		3F0CEABF2462B1B400884373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHQXH7UH54;
+				INFOPLIST_FILE = SimplePermissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freeze.SimplePermissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplePermission;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0CEA832462B1B300884373 /* Build configuration list for PBXProject "SimplePermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CEAB52462B1B400884373 /* Debug */,
+				3F0CEAB62462B1B400884373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0CEAB72462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CEAB82462B1B400884373 /* Debug */,
+				3F0CEAB92462B1B400884373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0CEABA2462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CEABB2462B1B400884373 /* Debug */,
+				3F0CEABC2462B1B400884373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0CEABD2462B1B400884373 /* Build configuration list for PBXNativeTarget "SimplePermissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0CEABE2462B1B400884373 /* Debug */,
+				3F0CEABF2462B1B400884373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0CEA802462B1B300884373 /* Project object */;
+}
