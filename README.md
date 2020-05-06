@@ -10,5 +10,5 @@
 ## 暗黑模式适配
 
 
-![light_screenshots](./light_screenshots.PNG)![dark_screenshots](./dark_screenshots.PNG)
+![light_screenshots](./light_screenshots1.PNG)![dark_screenshots](./dark_screenshots1.PNG)
 
